@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "ES2021",
+    "sourceMap": true, // debug
+    "skipLibCheck": true, // performance
+    "forceConsistentCasingInFileNames": true // de para no imports tem que ser igual o nome do arquivo
+  },
+
+  "include": ["src"]
+}

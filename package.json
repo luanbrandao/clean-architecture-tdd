@@ -2,7 +2,16 @@
   "name": "clean-architecture-tdd",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
   "repository": "git@github.com:luanbrandao/clean-architecture-tdd.git",
   "author": "luanbrandao <luanbrandao4@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "rimraf": "^6.0.1"
+  }
 }
