@@ -1,0 +1,8 @@
+{
+  "name": "clean-architecture-tdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:luanbrandao/clean-architecture-tdd.git",
+  "author": "luanbrandao <luanbrandao4@gmail.com>",
+  "license": "MIT"
+}
